@@ -17,7 +17,7 @@ Other categorization criteria should also be considered depending on the feature
 Discount strategy will work better with customers who is already paying high prices for the service and if the churn status is really price sensitive event.
 
 ## 3.	Feature Engineering
-* Two relational datasets provided. Include price data to client history data.
+* Two relational datasets provided. Include price information to the client history data.
 * Deal with outliers: either by z-score or boxplot
 * Some features are highly skewed. Handle them with log(x+1) conversion
 * Imbalanced data: use balanced randomforest to categorize Yes Chrun / No Churn customers
